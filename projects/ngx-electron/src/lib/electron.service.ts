@@ -1,5 +1,6 @@
 import * as Electron from 'electron';
 import { ElectronWindow } from './typings/electron.window';
+import { BrowserWindow } from '@electron/remote';
 
 declare let window: ElectronWindow;
 
